@@ -1,14 +1,14 @@
 ﻿Console.WriteLine("Welcome to the AREA CALCULATOR");
 
-Console.Write("Please enter the length of the room: ");
+Console.Write("Please enter the length of the room in cm: ");
 int length = int.Parse(Console.ReadLine()!);
 
-Console.Write("Please enter the width of the room: ");
+Console.Write("Please enter the width of the room in cm: ");
 int width = int.Parse(Console.ReadLine()!);
 
 int roomArea = length * width;
 
-Console.WriteLine("The area of the room is: " + roomArea);
+Console.WriteLine("The area of the room is: " + roomArea +"cm");
 Console.WriteLine("Press any key to move onto the NUMBER ANALYSER");
 Console.ReadKey();
 
